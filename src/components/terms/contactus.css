@@ -1,0 +1,52 @@
+.t-contactus-c{
+    display: flex; 
+    box-shadow: 0 1px 2px 0 rgb(210 231 248 / 30%), 0 1px 3px 1px rgb(172 184 193 / 15%);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.t-contactus-form{
+    display: block;
+    flex: 0.5;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: linear-gradient(131deg, rgba(250,250,250,1) 0%, rgba(100,53,153,1) 42%, rgba(172,160,218,1) 99%); */
+    /* color: white */
+}
+.t-contactus-ab{
+    flex: 0.4;
+    padding: 24px;
+    padding-left: 90px;
+}
+/* .cu-form .MuiOutlinedInput-notchedOutline{
+    border-color: white;
+}
+.cu-form label{
+    color: white;
+} */
+.t-contactus-form textarea{
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 8px;
+    resize: none;
+    padding: 12px;
+    /* border-color: white;
+    background-color: #8b69bf; */
+}
+/* .about-us .t-contactus-form  textarea::placeholder {
+    color: white;
+} */
+
+@media screen and (max-width: 700px){
+    .t-contactus-c{
+        flex-direction: column;
+    }
+    .t-contactus-ab{
+        padding-left: 24px;
+    }
+}

@@ -1,0 +1,19 @@
+.st-cat-item {
+    position: relative;
+    padding: 30px;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+  }
+  .st-cat-item:hover{
+    background-color: #eee;
+  }
+  .st-cat-item  img {
+    width: auto;
+    height: 45px;
+   
+    position: relative;
+    margin: 10px auto;
+    display: block;
+  }

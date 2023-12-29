@@ -1,0 +1,105 @@
+.live_assessment{
+    display: flex;
+    height: 100vh;
+}
+.header_box{
+    flex: .25;
+    height: 100vh;
+    border-left: 1px solid #ccc;
+}
+.header_box .hlogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px
+}
+.question_option img{
+    max-height: 260px;
+}
+.a-question_box {
+    display: flex;
+    min-height: calc(100vh - 102px);
+    flex: 1;
+    padding: 16px;
+}
+.a-qn-action-box{
+    display: flex;
+    flex: .75;
+    flex-direction: column;
+}
+.question_content{
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.live-assessment_info{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    background-color: #e0eae0;
+    height: 56px;
+}
+.count_c{
+    display: table;
+    background-color: white;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    font-size: 30px;
+    color: #555454; 
+    padding: 8px 40px;
+    text-align: center;
+    border-radius: 36px
+}
+.m_info{
+    display: none;
+    font-style: italic;
+    flex: 1;
+}
+@media screen and (max-width: 700px){
+    .live_assessment{
+        flex-direction: column-reverse;
+    }
+    .a-qn-action-box{
+        flex: 1;
+    }
+
+    .h_info{
+        display: none;
+    }
+    .header_box{
+        display: flex;
+        padding: 8px;
+        height: 46px;
+        flex: initial;
+        background-color: rgb(213 233 212);
+    }
+    .live-assessment_info .MuiButton-contained{
+        padding: 4px 11px !important;
+        margin: initial;
+        font-size: 13px;
+    }
+    .live-assessment_info .MuiButton-outlined{
+        padding: 4px 11px !important;
+        font-size: 12px !important;
+        margin: initial;
+        white-space: nowrap;
+    }
+    .question_box{
+        flex: 1;
+    }
+    .m_info{
+        display: block;
+        align-self: center;
+    }
+    .count_c{
+        margin: initial;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 4px 16px;
+    }
+    .count_c_l{
+        display: none;
+    }
+}

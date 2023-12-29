@@ -1,0 +1,36 @@
+.assessment-details{
+    display: flex;
+    width: 100%;
+    font-family: Nunito, 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.assessment-details .MuiButton-containedPrimary, .random_selection .MuiButton-containedPrimary{
+    background: #5f5cce !important;
+    border-radius: 16px !important;
+    text-transform: none !important;
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif !important;
+}
+.ad-c{
+    flex: 0.65
+}
+.ad-c-b{
+    margin-left: 48px;
+    bottom: 20px;
+    align-self: center;
+    position: relative;
+}
+.ad-c-b .MuiIconButton-root{
+    background: #acaae9;
+}
+.close-btn-icon{
+    width: 24px !important;
+    height: 24px !important;
+    background-color: whitesmoke !important;
+    border: 1px solid #ccc !important;
+    position: absolute;
+    top: -16px !important;
+    right: 0 !important;
+}
+.close-btn-icon .MuiSvgIcon-fontSizeMedium{
+    width: 16px !important;
+    height: 16px !important;
+}

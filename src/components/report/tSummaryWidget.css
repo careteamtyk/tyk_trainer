@@ -1,0 +1,24 @@
+.t-summary-widget{
+    display: inline-flex;
+    margin: 8px;
+    width: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 8px;
+    background-color: white;
+}
+.t-summary-w-d-c{
+}
+.t-summary-w-d-h{
+    font-weight: 600;
+}
+.t-summary-w-d-i{
+    font-size: 14px;
+    color: rgb(126, 124, 124);
+}
+.t-summary-w-p{
+    align-self: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 16px;
+}

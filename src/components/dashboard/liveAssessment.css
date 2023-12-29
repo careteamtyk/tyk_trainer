@@ -1,0 +1,50 @@
+.live-assessment{
+    display: flex;
+}
+.live-a-i-b{
+    margin: 8px; 
+    padding: 8px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(162, 183, 250, 0.16), 0 3px 6px rgba(127, 148, 244, 0.23);
+}
+.live-a-i-do{
+    display: flex;
+    margin-top: 30px;
+}
+.candidate_list_live{
+    display: block;
+    border-radius: 12px;
+    background: white;
+    height: 248px;
+    margin: 12px;
+    padding: 12px;
+    overflow-x: auto;
+}
+.candidate_list_live table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.candidate_list_live th, td {
+    text-align: left;
+    padding: 8px;
+    border: none;
+}
+.candidate_list_live tr{
+    border-bottom: 1px solid #ddd;
+}
+.candidate_list_live .name_col{
+    background-color: #f2f9ec;
+    width: 100%;
+}
+.candidate_list_live .css-eglki6-MuiLinearProgress-root{
+    height: 7px !important;
+    border-radius: 4px;
+}
+.live-a-i-do .MuiButton-contained{
+    text-transform: none;
+    flex: 1;
+    border-radius: 12px;
+    padding: 4px 16px;
+}

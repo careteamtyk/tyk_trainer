@@ -1,0 +1,137 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+ul.breadcrumb {
+  padding: 16px 10px 0 10px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.PhoneInputInput{
+  border: 0;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+}
+.PhoneInputInput:focus{
+  border-bottom: 2px solid rgb(141, 168, 232);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.strike-through {
+  position: relative;
+  display: inline-block;
+}
+
+.strike-through::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px; /* thickness of the strike-through */
+  background-color: currentColor;
+  transform: rotate(-5deg); /* you can adjust the rotation degree as per requirement */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.applogos{
+  position: fixed;
+  top: 0px;
+  left: 80px;
+}
+.sidenav {
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 115px;
+  left: 80px;
+  background: #fff;
+  overflow-x: hidden;
+  padding: 8px 0;
+  box-shadow: 0px 0px 3px 3px #f3f3f3;
+}
+
+.sidenav a {
+  padding: 4px 8px 0px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+.sidenav a:active {
+  color: #064579;
+}
+
+.main {
+  margin-left: 300px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 40px 10px;
+  margin-top:50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 16px;}
+}
+
+.hdng{
+  color:#361FFF;
+}

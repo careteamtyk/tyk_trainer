@@ -1,0 +1,54 @@
+.make-payment{
+    padding: 16px;
+}
+.make-payment .mph{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(36, 36, 243)
+}
+.make-payment .mph span{
+    color: rgb(37, 218, 61)
+}
+.make-payment .mpd{
+    font-size: 19px;
+    text-align: center;
+    color: rgb(133, 133, 135)
+}
+.make-payment .mpd span{
+    font-weight: 600;
+    font-size: 22px;
+    color: rgb(37, 218, 61)
+}
+.make-payment .mpv{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 12px;
+    text-align: center;
+    color: rgb(37, 37, 224)
+}
+.make-payment .MuiButton-contained{
+    background: rgb(37, 218, 61);
+    color: white;
+    border-radius: 12px;
+    text-transform: none;
+    padding: 10px 22px;
+}
+.make-payment .mpa{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 450px;
+    text-align: center;
+    color: #777;
+    margin-top: 24px;
+}
+.make-payment .mpi{
+    line-height: .96;
+    margin-top: 16px;
+    font-size: 15px;
+    max-width: 320px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(122, 122, 123);
+}

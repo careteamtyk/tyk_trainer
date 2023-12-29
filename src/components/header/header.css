@@ -1,0 +1,14 @@
+.home_header{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 8px 24px;
+    
+}
+.home_header .logo_container{
+    flex: 1
+}
+.home_header .action_container{
+    display: flex;
+    align-self: center;
+}

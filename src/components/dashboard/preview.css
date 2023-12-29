@@ -1,0 +1,33 @@
+.assessment-preview .MuiButton-containedPrimary {
+    background: #eff5fe !important;
+    border-radius: 16px;
+    text-transform: none ;
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif !important;
+}
+.p-add-m-q{
+    display: table; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px
+}
+.p-add-m-q .MuiButton-containedPrimary{
+    padding: 10px 24px;
+    font-size: 17px;
+    border-radius: 20px;
+    color: rgb(65, 65, 199);
+}
+.p-nav{
+    display: flex;  
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 8px;
+    justify-content: center;
+}
+.p-nav .MuiButton-containedPrimary{
+    padding: 4px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: rgb(65, 65, 199);
+}

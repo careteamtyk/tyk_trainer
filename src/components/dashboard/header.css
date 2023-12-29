@@ -1,0 +1,15 @@
+.notification-tray{
+    position: absolute;
+    right: 0;
+    display: block;
+    top: 46;
+    width: 245px;
+    height: 300px;
+    z-index: 9;
+    background-color: white;
+    box-shadow: 0 -4px 6px rgb(154 193 230 / 16%), 0 3px 6px rgb(122 155 245 / 23%);
+    border-radius: 8px;
+}
+.notification-tray.hide{
+    display: none;
+}

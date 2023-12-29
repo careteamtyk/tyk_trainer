@@ -1,0 +1,18 @@
+.t_a_button{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--bright-gold);
+    color: var(--dark-text-in-bright);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin:  initial !important;
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif !important;
+    font-size: initial !important;
+    line-height: initial !important;
+}
+.t_a_button:hover{
+    background-color: var(--bright-gold-hover);   
+}

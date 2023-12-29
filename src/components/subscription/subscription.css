@@ -1,0 +1,61 @@
+.subscription-page{
+    display: block;
+    position: relative;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+.subscription-c{
+    display: flex;
+}
+.s-plan-topup{
+    padding-left: 16px;
+}
+.s-plan-topup-c{
+    width: 300px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(210, 231, 248, 0.3), 0 1px 3px 1px rgba(172, 184, 193, 0.15);
+}
+/* Styling for the table container */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    background-color: #f4f7ff;
+ 
+    border-radius: 8px;
+  }
+  
+  /* Styling for the data table */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Styling for table header */
+  .data-table th {
+    background-color: #4f4eb6;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Styling for alternating table rows */
+  .data-table tbody tr:nth-child(even) {
+    background-color: #e0e4ff;
+  }
+  
+  /* Styling for table cell */
+  .data-table td {
+    padding: 10px;
+    color: #333; /* Adjust the text color */
+    border-bottom: 1px solid #ccc; /* Adjust the border color */
+  }
+  
+  /* Hover effect for table rows */
+  .data-table tbody tr:hover {
+    background-color: #d1d6ff;
+    cursor: pointer;
+  }
+  

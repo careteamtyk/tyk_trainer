@@ -1,0 +1,26 @@
+.ql-questions-c{
+    border-radius: 16px;
+    position: relative;
+    background: rgb(229 232 255);
+}
+.ql-questions{
+    padding: 8px;
+    border-radius: 6px;
+    height: 78vh;
+    overflow-y: auto;
+    background-color: white;
+}
+.ql-questions-h{
+    display: flex;
+    padding: 6px 4px;
+}
+.ql-questions-hl{
+    font-size: 19px;
+    color: rgb(90, 89, 89);
+    margin-left: 15px;
+}
+.ql-questions-h .MuiFormControlLabel-label{
+    font-size: 14px !important;
+    color: #777;
+
+}

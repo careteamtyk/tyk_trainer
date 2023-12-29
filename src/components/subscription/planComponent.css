@@ -1,0 +1,16 @@
+.plan-component{
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(210, 231, 248, 0.3), 0 1px 3px 1px rgba(172, 184, 193, 0.15);
+}
+.plan-h{
+    font-weight: 500;
+    color: #757578;
+}
+.plan-v{
+    font-weight: 600;
+    font-size: 17px;
+    color: #3634be;
+    margin-top: 8px;
+}

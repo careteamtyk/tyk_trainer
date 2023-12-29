@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito:wght@500&family=Open+Sans:wght@500&family=Roboto:wght@300');
+.rd_auth_c .MuiFormControl-root{
+    margin-top: 16px !important;
+}
+.rd_auth_c .MuiFormControl-fullWidth{
+    margin-left: 0 !important;
+}
+.rd_auth_c{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    inset: 0;
+    font-family: Nunito, 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 100vh;
+    background: #f6f6f6;
+}
+.rd_action_box{
+    display: table;
+    align-self: center
+}
+.rd_action_box .action_app_logo{
+    width: 240px;
+    display: block;
+    margin: auto
+}
+.rd_action_box .action_tagline{
+    text-align: center;
+    color: #3208FF;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.rd_action_box .rd_form_c{
+    max-width: 500px;
+    background-color: white;
+    padding: 36px; 
+    border-radius: 8px;
+    margin: 16px;
+    box-shadow: 0 10px 20px rgba(62, 62, 62, 0.19), 0 6px 6px rgba(126, 126, 126, 0.23)
+}
+.r_otp_l{
+    margin-top: 16px;
+
+}
+.r_otp_l input{
+    width: 36px !important;
+    height: 28px !important;
+    border-bottom: 2px solid green !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.btn-handle-verify{
+    width: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-self: center;
+    background-color: #EFF5FE;
+    color: #3208FF;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    margin-left: 8px
+}
+.btn-create-account{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4d4d4d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 20px
+}

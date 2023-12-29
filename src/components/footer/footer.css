@@ -1,0 +1,64 @@
+.footer_blue{
+    background: transparent linear-gradient(90deg, #6244FF 0%, #8E79FA 100%) 0% 0% no-repeat padding-box;
+    padding: 6px
+}
+.footer_black{
+    background-color: #021937;
+    padding: 16px;
+    color: white;
+    font-family: Segoe UI
+}
+.footer_c{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+.footer_c #icon{
+    height: 40px;
+}
+.footer_c #email, .footer_c #phone{
+    display: flex;
+    margin-left: 32px;
+}
+.footer_c #social{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+.footer_c #left{
+    flex: 2;
+    display: flex;
+
+}
+.footer_c #left div{
+    
+
+} 
+.footer_c #left div:nth-child(n + 2){
+    margin-left: 16px;
+}
+.footer_c #right{
+    flex: 0.3;
+    display: flex;
+    justify-content: end;
+
+}
+.footer_c #first div:nth-child(n + 2){
+    margin-left: 48px;
+}
+@media only screen and (max-width: 630px) {
+    .footer_c #email, .footer_c #phone{
+        margin-left: 16px;
+    }
+    .footer_blue .footer_c{
+        display: block;
+    }
+    .footer_c #left{
+        display: block;
+    }
+    .footer_c #left div:nth-child(n + 2){
+        margin-left: initial;
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,98 @@
+.live_intro{
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(357deg, rgb(183, 215, 244) 0%, rgb(235, 235, 236) 55%);
+}
+.live_intro .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 19px !important;
+}
+.enter_name{
+    position: absolute;
+    max-width: 450px;
+    width: 100%;
+    border-top: 4px solid rgb(58, 39, 228);
+    box-shadow: 0 10px 20px rgba(126, 151, 219, 0.19), 0 6px 6px rgba(108, 107, 212, 0.23);
+    padding: 20px;
+    border-radius: 16px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white
+}
+.intro_a_details{
+    margin-left: 20px;
+    flex: 1;
+}
+.waiting-trainer{
+    display: flex;
+    background: white;
+    margin: 12px auto;
+    height: 76vh;
+    border-radius: 12px;
+    max-width: 1000px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgb(162 183 250 / 16%), 0 3px 6px rgb(127 148 244 / 23%);
+}
+.animate-charcter{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.rdc-timer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100vw;
+  height: 100vh;
+}
+
+.rdc-timer {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rdc-text {
+  color: #aaa;
+}
+
+.rdc-value {
+  font-size: 40px;
+}
+@media screen and (max-width: 670px){
+    .intro_a_details{
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .waiting-trainer{
+        flex-direction: column-reverse;
+        height: auto;
+    }  
+}

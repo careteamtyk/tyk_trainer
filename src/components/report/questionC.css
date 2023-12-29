@@ -1,0 +1,37 @@
+.v_option{
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+}
+.v_option div{
+    flex: 1;
+}
+.v_option img{
+    max-width: 192px;
+}
+.report-q-summary{
+    padding: 12px;
+    margin: 20px 10px 4px 10px;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230);
+}
+.report-q-summary .v_qn_q{
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom: 12px
+}
+.report-q-summary .v_qn_q .qnum_c{
+    border: 1px solid #ddd;
+    padding: 2px 4px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.report-q-summary img{
+    display: block;
+    max-height: 192px;
+}

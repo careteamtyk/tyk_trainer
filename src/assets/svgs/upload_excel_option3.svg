@@ -1,0 +1,29 @@
+<svg id="Component_79_1" data-name="Component 79 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <filter id="Rectangle_629" x="-98.5" y="-94.5" width="265" height="262" filterUnits="userSpaceOnUse">
+      <feOffset dx="13" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="40.5" result="blur"/>
+      <feFlood flood-color="#e2eeff" flood-opacity="0.812"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_629)">
+        <rect id="Rectangle_629-2" data-name="Rectangle 629" width="22" height="19" transform="translate(0 0)" fill="#020202"/>
+      </g>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_63" data-name="Ellipse 63" cx="21" cy="21" r="21" fill="#d8d2ff"/>
+  <g id="Group_3121" data-name="Group 3121" transform="translate(10 9)">
+    <g id="Mask_Group_131" data-name="Mask Group 131" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="icons8-microsoft-excel" d="M10.792.164.3,2.154a.381.381,0,0,0-.3.375V16.5a.381.381,0,0,0,.3.375l10.487,1.99a.392.392,0,0,0,.07.012A.36.36,0,0,0,11.1,18.8a.388.388,0,0,0,.14-.293V.527A.388.388,0,0,0,11.1.234.36.36,0,0,0,10.792.164ZM11.986,2.4V5.022h.749v.749h-.749V7.643h.749v.749h-.749v1.873h.749v.749h-.749v2.247h.749v.749h-.749v2.622H17.6a.751.751,0,0,0,.749-.749V3.149A.751.751,0,0,0,17.6,2.4Zm1.5,2.622h3v.749h-3ZM2.5,6.028h1.92l1.007,2.1a3.557,3.557,0,0,1,.211.6h.012c.039-.136.116-.35.222-.62L6.988,6.028H8.743l-2.1,3.465L8.8,13.028H6.941L5.724,10.745a2.013,2.013,0,0,1-.14-.468H5.571a3.748,3.748,0,0,1-.164.492L4.19,13.028H2.318l2.236-3.5ZM13.484,7.643h3v.749h-3Zm0,2.622h3v.749h-3Zm0,3h3v.749h-3Z" transform="translate(1.632 -0.269)" fill="#3208ff"/>
+    </g>
+    <g id="Group_3120" data-name="Group 3120" transform="translate(10 12.001)">
+      <g id="Ellipse_49" data-name="Ellipse 49" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="1">
+        <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+        <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+      </g>
+      <path id="Icon_material-file-upload" data-name="Icon material-file-upload" d="M9.4,10.666h2.846V7.82h1.9L10.82,4.5,7.5,7.82H9.4Zm-1.9.949h6.64v.949H7.5Z" transform="translate(-4.174 -2.317)" fill="#3208ff"/>
+    </g>
+  </g>
+</svg>

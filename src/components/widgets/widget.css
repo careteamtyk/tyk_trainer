@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito:wght@500&family=Open+Sans:wght@500&family=Roboto:wght@300");
+
+#input_c {
+  min-width: 196px;
+}
+#input_c input {
+  width: 100%;
+}
+.action_btn {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.25px;
+  align-items: center;
+  background-color: #fff;
+  -webkit-border-radius: 24px;
+  border-radius: 24px;
+  color: #d93025;
+  display: inline-flex;
+  font-weight: bold;
+  height: 45px;
+}
+.action_btn span {
+  margin-left: 8px;
+}
+.action_btn:hover {
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+.create_tab {
+  width: 100%;
+  font-family: "Open Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  padding: 8px;
+  margin-bottom: -4px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  border: 1px solid #d3d4d5;
+  cursor: pointer;
+}
+.topic_box {
+  position: relative;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+  display: inline-block;
+  cursor: pointer;
+  background: #ceddf4;
+  border-radius: 24px;
+  margin: 6px;
+  font-size: 15px;
+  color: rgb(78 77 77);
+}
+.topic_box.selected {
+  background: #4281e0;
+  color: white;
+}
+.topic_box:hover {
+  background: #4281e0;
+  color: white;
+}
+.topic_box:hover span {
+  color: white;
+}
+.topic_box_info {
+  font-size: 10px;
+  max-width: 90px;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 2;
+  padding: 4px 8px 4px 8px;
+  background: white;
+  color: #6c7383;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+  top: -32px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.topic_box_info:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 5px 0;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -7px;
+  left: 36px;
+}
+.MuiSvgIcon-root {
+  align-self: center !important;
+}
+
+.app_logo #full_logo {
+  height: 76px;
+  cursor: pointer;
+}
+.app_logo #partial_logo {
+  height: 76px;
+  cursor: pointer;
+  display: none;
+}
+.home_card {
+  box-shadow: rgb(0 0 0 / 10%) 0px 14px 28px, rgb(0 0 0 / 10%) 0px 10px 10px;
+  padding: 16px;
+  border-radius: 12px;
+  flex: 1;
+  margin: 18px 150px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+.home_card .item1 {
+  flex: 0.4;
+}
+.home_card .item2 {
+  flex: 0.6;
+  /* padding-left: 8px */
+}
+.menu_button {
+  display: flex;
+  color: #6c7383;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Open Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.menu_button:hover {
+  color: white;
+  background-color: #4f4eb6;
+}
+.menu_button.active {
+  color: white;
+  background-color: #4f4eb6;
+}
+.assessment_card {
+  margin-top: 16px;
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px 10px 10px 24px;
+  box-shadow: 0 1px 2px 0 rgba(210, 231, 248, 0.3),
+    0 1px 3px 1px rgba(172, 184, 193, 0.15);
+}
+.assessment_card .MuiButton-containedPrimary {
+  margin-top: 0 !important;
+}
+.assessment_card_item {
+  flex: 1;
+  align-self: center;
+  color: #656a77;
+}
+.assessment_card_item .MuiButton-outlinedSizeSmall {
+  text-transform: none !important;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 12px;
+  padding-left: 12px;
+}
+.assessment_card_item .item_header {
+  font-weight: 600;
+}
+.rd_menu_icon {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: #6c7383 !important;
+}
+.ratul_button {
+  padding: 9px 20px;
+  background-color: #4f4eb6;
+  display: inline-block;
+  color: white;
+  border-radius: 12px;
+}
+.ratul_button:hover {
+  background-color: #5d5bc9;
+  cursor: pointer;
+  user-select: none;
+}
+.left-menu-logo {
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .home_card {
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+}

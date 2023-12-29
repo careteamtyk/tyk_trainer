@@ -1,0 +1,69 @@
+.questions_box .qb_content{
+    max-height: 350px;
+    overflow-y: auto;
+}
+.question{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 12px;
+    font-size: 17px;
+}
+.v_option{
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+}
+.v_option div{
+    flex: 1;
+}
+.v_option .answer{
+    background-color: rgb(187, 243, 184);
+}
+
+.v_action_qn .MuiIconButton-root{
+    background-color: #ddd;
+    margin-right: 16px;
+}
+.view_only_question{
+    position: absolute;
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    right: 0;
+    padding: 12px;
+    margin: 9px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.view_only_question.selected{
+    background-color: rgb(198 255 215);
+    border: 1px solid rgb(95,92,206);
+}
+.view_only_question .v_qn_qn{
+    font-size: 17px;
+    margin-top: 12px;
+    margin-bottom: 12px
+}
+.view_only_question .v_qn_qn .qnum_c{
+    border: 1px solid #ddd;
+    padding: 2px 4px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+.view_only_question img{
+    display: block;
+}
+.view_only_question .v_action_qn{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: -12px;
+}
+.view_only_question .v_action_qn .MuiButton-outlined{
+    border-radius: 12px !important;
+    padding: 2px !important;
+    text-transform: none;
+    background: rgb(236 239 245);
+}

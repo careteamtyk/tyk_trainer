@@ -1,0 +1,29 @@
+.a-filter{
+    position: relative;
+    color:  #777;
+    cursor: pointer;
+    user-select: none;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    min-width: 100px;
+    background-color: white;
+}
+.a-filter .a-filter-c.hide{
+    display: none;
+}
+.a-filter .a-filter-c{
+    position: absolute;
+    top: 36px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 3px 6px rgb(154 193 230 / 16%), 0 3px 6px rgb(122 155 245 / 23%);
+}
+.a-filter .a-filter-i{
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+}
+.a-filter .a-filter-i:hover{
+    background-color: #ddd;
+}

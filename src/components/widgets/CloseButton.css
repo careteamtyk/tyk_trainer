@@ -1,0 +1,46 @@
+.btn-cross-close {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: #f5f5f5; /* Example light gray background color */
+    border-radius: 50%; /* Half of the width and height to make it a circle */
+    position: relative;
+    overflow: hidden;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transform transitions */
+}
+
+.btn-cross-close:before,
+.btn-cross-close:after {
+    content: "";
+    position: absolute;
+    top: 50%; /* Aligning to the center vertically */
+    left: 4px;
+    right: 4px;
+    height: 1px;
+    background: #000;
+    border-radius: 1px;
+    transition: background 0.3s ease; /* Smooth background transitions */
+    transform-origin: center;
+}
+
+.btn-cross-close:before {
+    transform: rotate(45deg) translateY(-50%); /* Centering */
+}
+
+.btn-cross-close:after {
+    transform: rotate(-45deg) translateY(-50%); /* Centering */
+}
+
+/* Hover effect styles */
+.btn-cross-close:hover {
+    transform: scale(1.1); /* Zoom in the cross slightly */
+}
+
+.btn-cross-close:hover:before,
+.btn-cross-close:hover:after {
+    background: #3498db; /* Change the color of the cross lines to blue */
+}

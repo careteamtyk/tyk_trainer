@@ -1,0 +1,31 @@
+.start_assessment{
+    display: flex;
+    margin-left: 16px;
+    border-radius: 16px;
+    padding: 2px 2px 2px 8px;
+  }
+  .start_assessment #us_input{
+        outline: none;
+        height: 100%;
+        border: none;
+        font-size: 15px;
+        font-style: italic;
+       background-color: transparent;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+  }
+  .start_assessment #us_button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 15px;
+    background-color: var(--purple-bg-color);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 14px;
+  }
+  .start_assessment #us_button:hover{
+    background-color: #4a2ce0;
+  }

@@ -1,0 +1,19 @@
+.name-c{
+    display: inline-flex;
+    box-shadow: rgb(162 183 250 / 16%) 0px 1px 2px, rgb(127 148 244 / 23%) 0px 0px 3px;
+    margin: 6px;
+    background-color: white;
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+.name-first-letter{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-weight: 500;
+    color: rgb(95, 94, 94);
+    justify-content: center;
+    user-select: none;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}

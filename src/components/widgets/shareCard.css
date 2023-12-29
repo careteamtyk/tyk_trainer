@@ -1,0 +1,38 @@
+.share_card{
+    display: flex;
+    border-radius: 8px;
+    background: linear-gradient(233deg, rgba(23,123,211,1) 0%, rgba(7,172,206,1) 55%);
+    padding: 8px;
+}
+.share_card .MuiButton-contained{
+    border-radius: 12px !important;
+    text-transform: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #abf9b5 !important;
+    color: rgb(93, 92, 92);
+    padding: 1px 12px;
+}
+.qr-code-container {
+    transition: transform 0.3s;
+    position: relative; /* Necessary for z-index to take effect */
+  }
+  
+  .qr-code-container.zoom {
+    transform: scale(4); /* Adjust the scale factor as needed */
+    z-index: 1000; /* This should be higher than the z-index of other elements */
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* You may adjust the color and opacity */
+    z-index: 1000; /* Higher than the z-index of other elements */
+  }
+  

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito:wght@500&family=Roboto:wght@300;400&display=swap');
+.home_bg{
+    position: fixed; 
+    height: 80vh;
+    overflow: hidden;
+    width: 100%;
+    top:0
+}
+.home-content-bg-c{
+    padding-top: 30px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50), rgba(0,0,0,0.506)), url('../../../public/assets/images/Pic\ 1.jpg');
+    background-position: 50% 50%;
+    color: white;
+    padding-bottom: 162px;
+    margin-bottom: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_bg .img1{
+    height: 70vh;
+    width: 30vw;
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 90px
+}
+.home_bg .img2{
+    height: 80vh;
+    width: 100%;
+    display: block;
+    position: absolute;
+    inset: 0
+}
+.home_container{
+    position: fixed;
+    overflow-y: auto; 
+    width: 100%;
+    inset:0; 
+    z-index: 1;
+    font-family: 'DM Sans', sans-serif;
+}
+.home_container .css-1kfqub6-MuiPaper-root,
+.home_container .css-1pnmrwp-MuiTypography-root,
+.home_container .css-1hk0qao-MuiTypography-root, 
+.home_container .css-lc8f30-MuiTypography-root,
+.home_container .css-lc8f30-MuiTypography-root,
+.home_container .MuiPaper-root  {
+    box-shadow: none !important;
+    font-family: inherit !important;
+}
+
+
+.home_card_c{
+    display: flex;
+    width: 100%
+}
+.card-hover-container {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    /* Add any additional styling you need for the card */
+  }
+  
+.home_content{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto
+}
+.home_title1{
+    font-weight: 700;
+    box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 1.1;
+}
+
+@media only screen and (max-width: 1024px) {
+    .home_header{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .home_card{
+       display: block;
+       margin-bottom: 16px;
+    }
+    .home_card_c{
+        padding: 12px;
+    }
+    .home_title1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .home_header{
+       display: block
+    }
+    #input_c{
+        min-width: auto;
+    }
+    .home_header .app_logo{
+        display: table;
+        margin: auto;
+    }
+    .home_header .action_container{
+        width: 100%;
+        justify-content: center;
+        margin-top: 16px;
+    }
+    .start_assessment{
+        flex: 1;
+        display: flex;
+    }
+    .start_assessment #input_c{
+        flex: 1;
+    }
+    .start_assessment #us_input{
+        width: 100%;
+        padding: 8px;
+    }
+    .start_assessment #us_button{
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 8px;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .home_card_c{
+        display: block;
+    }
+    .home_card{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1536px){
+    .css-15jw7o5-MuiGrid-root {
+        padding-left: 200px!important;
+        padding-right: 200px!important;
+    }
+    .css-1r3r32u-MuiGrid-root {
+        padding-left: 250px!important;
+        padding-right: 250px!important;
+    }
+    .css-hnszc5-MuiGrid-root {
+        padding-left: 250px!important;
+        padding-right: 250px!important;
+    }
+    .css-1ux6al2 {
+        padding-left: 110px!important;
+        padding-right: 110px!important;
+    }
+    .css-nylbie {
+        padding-left: 210px!important;
+        padding-right: 210px!important;
+    }
+}
+/* .css-11reh94-MuiGrid-root>.MuiGrid-item {
+    padding-left: 0px!important;
+} */

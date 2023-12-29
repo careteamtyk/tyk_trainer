@@ -1,0 +1,26 @@
+.qs-figure{
+    display: flex;
+    width: fit-content;
+    padding: 4px 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    position: absolute;
+    right: 10px;
+    top: -16px;
+}
+.qs-figure-l{
+    margin: 4px 8px;
+    color: rgb(86, 73, 234);
+}
+.qs-figure-c-i{
+    color: rgb(9, 156, 9);
+    font-weight: 600;
+    margin-left: 8px;
+    margin-right: 16px;
+}
+.qs-figure-w-i{
+    color: red;
+    font-weight: 600;
+    margin-left: 8px;
+}

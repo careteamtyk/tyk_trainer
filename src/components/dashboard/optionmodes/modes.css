@@ -1,0 +1,28 @@
+.random_selection .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 18px !important;
+}
+.manual_creation .MuiButton-containedPrimary {
+    background: #eff5fe !important;
+    border-radius: 16px !important;
+    text-transform: none !important;
+    color: #777;
+    font-family: 'Open Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif !important;
+}
+.q_container{
+    border-radius: 16px;
+    background-color: rgb(245 244 244);
+    margin-top: 16px;
+    padding: 12px;
+}
+.q_container.content{
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(135, 153, 230, 0.16), 0 3px 6px rgba(183, 189, 243, 0.23);
+}
+.q_action-f{
+    display: flex;
+}
+.q_action-f .MuiFormControlLabel-label{
+    font-size: 14px !important;
+    color: #777;
+
+}

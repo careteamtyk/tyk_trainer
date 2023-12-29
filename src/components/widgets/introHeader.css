@@ -1,0 +1,16 @@
+.intro_header{
+    display: flex;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+    margin: 12px auto;
+    max-width: 1000px;
+    box-shadow: 0 2px 16px rgba(126, 151, 219, 0.19), 0 6px 6px rgba(108, 107, 212, 0.23)
+}
+@media screen and (max-width: 670px){
+    .intro_header{
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
